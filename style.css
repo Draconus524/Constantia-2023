@@ -612,6 +612,7 @@ p:hover span {
   .constantia{
     font-size: 15vw;
     margin-top: 30%;
+    font-weight: bold;
   }
 
   .padded-container{
@@ -620,12 +621,14 @@ p:hover span {
 
   .subtext{
     font-size: 6.5vw;
+    font-weight: bold;
   }
 }
 
 @media screen and (max-width:557px) {
   .subtext{
     margin-left: 20%;
+    font-weight: bold;
   }
 }
 
