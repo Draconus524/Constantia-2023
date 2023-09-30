@@ -293,7 +293,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 .countli span {
   line-height: .9;
-  font-family: 'Catamaran', sans-seri
+  font-family: 'Catamaran', sans-serif;
   padding-top:5px;
   font-weight: bold;
   display: block;
@@ -308,10 +308,12 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   
   .countli {
     font-size: calc(1.125rem * var(--smaller));
+    font-weight: bold;
   }
   
   .countli span {
     font-size: calc(3.375rem * var(--smaller));
+    font-weight: bold;
   }
 }
 
