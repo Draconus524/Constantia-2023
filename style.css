@@ -308,12 +308,12 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   
   .countli {
     font-size: calc(1.125rem * var(--smaller));
-    font-weight: bold;
+    font-weight: bolder;
   }
   
   .countli span {
     font-size: calc(3.375rem * var(--smaller));
-    font-weight: bold;
+    font-weight: bolder;
   }
 }
 
