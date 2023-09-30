@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400");
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Montserrat&family=Roboto:wght@300;400&display=swap');
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300;400&display=swap'); */
 *,
 *::before,
@@ -281,6 +282,8 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 .countli {
   display: inline-block;
   font-size: 2em;
+  font-family: 'Catamaran', sans-serif;
+
   line-height: 1.9;
   letter-spacing: .01em;
   list-style-type: none;
@@ -290,6 +293,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 .countli span {
   line-height: .9;
+  font-family: 'Catamaran', sans-seri
   padding-top:5px;
   font-weight: bold;
   display: block;
@@ -507,6 +511,13 @@ p:hover span {
   .hide-bx {
     display: none !important;
   }
+  .constantia{
+    text-shadow: none;
+  }
+
+  .subtext{
+    text-shadow: none;
+  }
 }
 @media (min-width: 874px) {
   header {
@@ -536,7 +547,7 @@ p:hover span {
 
 .gridimg{
   width: 300px;
-  border: 2px solid rgba(0, 0, 0, 0.8);
+  border: 2px solid white;
 }
 .email{
   color: white;
@@ -563,6 +574,7 @@ p:hover span {
   color: white;
   font-size: 20px;
 }
+
 
 @media screen and (max-width:874px) {
   .contact-div{
