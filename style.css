@@ -101,6 +101,7 @@ background-size: 30%;
 }
 .company-logo img{
   /* width: 100%; */
+  max-width: 100px;
   height: 100px;
 }
 .center-text{
