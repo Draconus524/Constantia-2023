@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400");
-@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Montserrat&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Montserrat&family=Roboto:wght@300;400;700&display=swap');
+
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300;400&display=swap'); */
 *,
 *::before,
@@ -7,7 +8,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  
+  font: 'Roboto';
 }
 
 /* ================= VARIABLE ================ */
@@ -203,7 +204,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 .maintext{
   color: white;
   padding-top: 35px;
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-size: 20px;
   text-align: justify;
   padding-left: 20px;
@@ -268,7 +269,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   font-family: -apple-system, 
   BlinkMacSystemFont, 
   "Segoe UI", 
-  Roboto, 
+  'Roboto', 
   Oxygen-Sans, 
   Ubuntu, 
   Cantarell, 
@@ -323,10 +324,10 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px; */
-    font-family: Roboto Black;
+    font-family: 'Roboto' Black;
   font-style: normal;
   font-size: 10vw;
-  font-weight: 400;
+  font-weight: 700;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -411,7 +412,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 
 .subtext{
-  font-family: Roboto Black;
+  font-family: 'Roboto' Black;
   font-style: normal;
   /* font-weight: 300; */
   font-size: 3.5vw;
@@ -419,14 +420,14 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   letter-spacing: -.02em;
   margin-right: 256px;
   text-align: right;
-  font-weight: 100;
+  font-weight: 700;
   color: #C7AE4A;
   text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary),
     9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
 }
 
 .dates{
-  font-family: Roboto Black;
+  font-family: 'Roboto' Black;
   font-style: normal;
   /* font-weight: 300; */
   font-size: 3.5vw;
