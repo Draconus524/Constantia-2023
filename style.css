@@ -80,7 +80,7 @@ header {
   padding: 1rem 2rem;
 }
 #preloader {
- background: #0C0C0C url(./assets/loader.gif) no-repeat center center;
+ background: #21242d  url(./assets/Bouncy-Preloader.gif) no-repeat center center;
 
  width: 200vh;
  height: 100%;
