@@ -90,14 +90,14 @@ background-size: 30%;
 .company-logo {
   /* font-size: 2.5rem; */
   position: sticky;
-  background: -webkit-linear-gradient(
+  /* background: -webkit-linear-gradient(
     120deg,
     var(--primary-color-alt),
     var(--primary-color)
-  );
+  ); */
   /* z-index: 1; */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
 }
 .company-logo img{
   /* width: 100%; */
