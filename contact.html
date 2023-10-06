@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div id="preloader"></div>
     <video autoplay muted loop id="myVideo" playsinline>
         <source src="./assets/drone.mp4" type="video/mp4">
       </video>
@@ -52,6 +53,16 @@
       </div>
       <h1 class="email">Email us at :   <a href="mailto:lmc.claudemartin@gmail.com"> lmc.claudemartin@gmail.com</a> </h1>
 </body>
+<script>
+  var loader = document.getElementById("preloader");
+
+  window.addEventListener("load", function(){
+    
+    
+    loader.style.display="none";
+  })
+
+</script>
 <script src="main.js"></script>
 <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/dist/boxicons.js" integrity="sha512-Dm5UxqUSgNd93XG7eseoOrScyM1BVs65GrwmavP0D0DujOA8mjiBfyj71wmI2VQZKnnZQsSWWsxDKNiQIqk8sQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
